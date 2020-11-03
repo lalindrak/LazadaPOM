@@ -17,6 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestSetup {
     public static WebDriver driver;
+    public static BasePage basePage = new BasePage();
 
     protected void selectBrowser(String browser,boolean runRemote) throws MalformedURLException {
 
@@ -53,7 +54,7 @@ public class TestSetup {
                 driver.manage().window().maximize();
             }
         }
-        new BasePage();
+        basePage.setWebDriver(driver);
         driver.get(Constants.APP_URL);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
