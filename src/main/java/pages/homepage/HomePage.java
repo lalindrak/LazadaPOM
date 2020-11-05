@@ -1,4 +1,4 @@
-package base.homepage;
+package pages.homepage;
 
 import base.BasePage;
 import org.openqa.selenium.WebElement;
@@ -38,6 +38,4 @@ public class HomePage extends BasePage {
         }
         return number;
     }
-
-
 }

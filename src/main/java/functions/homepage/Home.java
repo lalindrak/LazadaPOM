@@ -1,6 +1,6 @@
 package functions.homepage;
 
-import base.homepage.HomePage;
+import pages.homepage.HomePage;
 
 public class Home {
     HomePage homePage = new HomePage();
