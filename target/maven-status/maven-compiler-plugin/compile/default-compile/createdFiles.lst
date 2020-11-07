@@ -1,0 +1,6 @@
+base\BasePage.class
+enums\Browser.class
+enums\OS.class
+pages\homepage\HomePage.class
+functions\homepage\Home.class
+helper\Constants.class

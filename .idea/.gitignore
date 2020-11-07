@@ -3,4 +3,5 @@
 /workspace.xml
 */target/**
 target/maven-status
+target/
 .idea/
